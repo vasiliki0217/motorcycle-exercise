@@ -58,20 +58,8 @@ function loadModels() {
                     a.href = 'details.html';
                     a.onclick = () => selectModel(m.name);
 
-                    const modelImages = {
-                        "CBR1000RR": "cbr1000rr.png",
-                        "CB500F": "cb500f.png",
-                        "Africa Twin": "africatwin.png",
-                        "YZF-R1": "yzf-r1.png",
-                        "MT-07": "mt-07.png",
-                        "Tenere 700": "tenere700.png",
-                        "Panigale V4": "panigalev4.png",
-                        "Monster 821": "monster821.png",
-                        "Scrambler": "scrambler.png"
-                    };
-
                     const img = document.createElement('img');
-                    img.src = 'images/' + modelImages[m.name];
+                    img.src = 'images/' + m.image;
                     img.alt = m.name;
                     img.width = 100;
                     a.appendChild(img);
@@ -102,18 +90,7 @@ function loadDetails() {
                 document.getElementById('model-name').innerText = model.name;
                 document.getElementById('model-details').innerText = model.details;
 
-                const modelImages = {
-                    "CBR1000RR": "cbr1000rr.png",
-                    "CB500F": "cb500f.png",
-                    "Africa Twin": "africatwin.png",
-                    "YZF-R1": "yzf-r1.png",
-                    "MT-07": "mt-07.png",
-                    "Tenere 700": "tenere700.png",
-                    "Panigale V4": "panigalev4.png",
-                    "Monster 821": "monster821.png",
-                    "Scrambler": "scrambler.png"
-                };
-                document.getElementById('model-img').src = 'images/' + modelImages[model.name];
+                document.getElementById('model-img').src = 'images/' + model.image;
                 document.getElementById('model-img').alt = model.name;
 
                 const div = document.getElementById('championships');

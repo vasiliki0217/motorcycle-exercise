@@ -6,19 +6,22 @@
             "championships": [
                 "2022",
                 "2023"
-            ]
+            ],
+            "image": "cbr1000rr.png"
         },
         {
             "name": "CB500F",
             "details": "Naked bike, 500cc",
-            "championships": []
+            "championships": [],
+            "image": "cb500f.png"
         },
         {
             "name": "Africa Twin",
             "details": "Adventure bike, 1100cc",
             "championships": [
                 "2021"
-            ]
+            ],
+            "image": "africatwin.png"
         }
     ],
     "Yamaha": [
@@ -27,19 +30,22 @@
             "details": "Superbike, 998cc",
             "championships": [
                 "2023"
-            ]
+            ],
+            "image": "yzf-r1.png"
         },
         {
             "name": "MT-07",
             "details": "Street bike, 689cc",
-            "championships": []
+            "championships": [],
+            "image": "mt-07.png"
         },
         {
             "name": "Tenere 700",
             "details": "Adventure, 689cc",
             "championships": [
                 "2020"
-            ]
+            ],
+            "image": "tenere700.png"
         }
     ],
     "Ducatti": [
@@ -48,17 +54,20 @@
             "details": "Superbike, 1103cc",
             "championships": [
                 "2023"
-            ]
+            ],
+            "image": "panigalev4.png"
         },
         {
             "name": "Monster 821",
             "details": "Naked bike, 821cc",
-            "championships": []
+            "championships": [],
+            "image": "monster821.png"
         },
         {
             "name": "Scrambler",
             "details": "Classic, 803cc",
-            "championships": []
+            "championships": [],
+            "image": "scrambler.png"
         }
     ]
 }
