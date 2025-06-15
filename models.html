@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,11 @@
 </head>
 
 <body onload="loadModels()">
-    <button onclick="setLanguage('en')">EN</button>
-    <button onclick="setLanguage('fr')">FR</button>
+    <header>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('fr')">FR</button>
+    </header>
     <h1 id="models-title"></h1>
     <ul id="models-list"></ul>
     <a href="index.html" id="back-manufacturers"></a>

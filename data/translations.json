@@ -4,13 +4,17 @@
         "models-title": "Models",
         "back-manufacturers": "Back to Manufacturers",
         "back-models": "Back to Models",
-        "no-championships": "No championships"
+        "no-championships": "No championships",
+        "recent-championships": "Recent Championships",
+        "year": "Year"
     },
     "fr": {
         "title": "Fabricants",
         "models-title": "Modèles",
         "back-manufacturers": "Retour aux fabricants",
         "back-models": "Retour aux modèles",
-        "no-championships": "Pas de championnats"
+        "no-championships": "Pas de championnats",
+        "recent-championships": "Championnats récents",
+        "year": "Année"
     }
 }

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+
     <script src="scripts/app.js"></script>
 </head>
 
 <body onload="loadDetails()">
-    <button onclick="setLanguage('en')">EN</button>
-    <button onclick="setLanguage('fr')">FR</button>
+    <header>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('fr')">FR</button>
+    </header>
     <h1 id="model-name"></h1>
     <p id="model-details"></p>
     <img id="model-img" width="200" alt="">

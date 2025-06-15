@@ -4,6 +4,17 @@ let lang = localStorage.getItem('lang') || 'en';
 // This will hold translation texts after loading
 let translations = {};
 
+// Load saved theme or default
+let theme = localStorage.getItem('theme') || 'light';
+document.documentElement.setAttribute('data-theme', theme);
+
+function toggleTheme() {
+    theme = theme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+}
+
+
 // Function to set the language and reload the page
 function setLanguage(newLang) {
     lang = newLang;
@@ -94,17 +105,32 @@ function loadDetails() {
                 document.getElementById('model-img').alt = model.name;
 
                 const div = document.getElementById('championships');
+                div.innerHTML = ''; // Clear any existing content
+
                 if (model.championships.length === 0) {
                     div.innerText = translations['no-championships'];
                 } else {
+                    // Add a title before the table
+                    const title = document.createElement('h3');
+                    title.innerText = translations['recent-championships'];
+                    div.appendChild(title);
+
                     const table = document.createElement('table');
                     model.championships.forEach(year => {
                         const row = document.createElement('tr');
-                        const cell = document.createElement('td');
-                        cell.innerText = year;
-                        row.appendChild(cell);
+
+                        const labelCell = document.createElement('td');
+                        labelCell.innerText = translations['year'];
+                        row.appendChild(labelCell);
+
+                        const yearCell = document.createElement('td');
+                        yearCell.innerText = year;
+                        row.appendChild(yearCell);
+
                         table.appendChild(row);
                     });
+
+
                     div.appendChild(table);
                 }
             });
