@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/app.js"></script>
+</head>
+
+<body onload="loadManufacturers()">
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('fr')">FR</button>
+    <h1 id="page-title"></h1>
+    <ul>
+        <li>
+            <a href="models.html" onclick="selectManufacturer('Honda')">
+                <img src="images/hondalogo.png" alt="Honda" width="100"><br>Honda
+            </a>
+        </li>
+        <li>
+            <a href="models.html" onclick="selectManufacturer('Yamaha')">
+                <img src="images/yamahalogo.png" alt="Yamaha" width="100"><br>Yamaha
+            </a>
+        </li>
+        <li>
+            <a href="models.html" onclick="selectManufacturer('Ducatti')">
+                <img src="images/ducatilogo.png" alt="Ducatti" width="100"><br>Ducatti
+            </a>
+        </li>
+    </ul>
+</body>
+
+</html>

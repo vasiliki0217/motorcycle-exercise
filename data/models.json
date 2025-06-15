@@ -1,0 +1,64 @@
+{
+    "Honda": [
+        {
+            "name": "CBR1000RR",
+            "details": "Sport bike, 1000cc",
+            "championships": [
+                "2022",
+                "2023"
+            ]
+        },
+        {
+            "name": "CB500F",
+            "details": "Naked bike, 500cc",
+            "championships": []
+        },
+        {
+            "name": "Africa Twin",
+            "details": "Adventure bike, 1100cc",
+            "championships": [
+                "2021"
+            ]
+        }
+    ],
+    "Yamaha": [
+        {
+            "name": "YZF-R1",
+            "details": "Superbike, 998cc",
+            "championships": [
+                "2023"
+            ]
+        },
+        {
+            "name": "MT-07",
+            "details": "Street bike, 689cc",
+            "championships": []
+        },
+        {
+            "name": "Tenere 700",
+            "details": "Adventure, 689cc",
+            "championships": [
+                "2020"
+            ]
+        }
+    ],
+    "Ducatti": [
+        {
+            "name": "Panigale V4",
+            "details": "Superbike, 1103cc",
+            "championships": [
+                "2023"
+            ]
+        },
+        {
+            "name": "Monster 821",
+            "details": "Naked bike, 821cc",
+            "championships": []
+        },
+        {
+            "name": "Scrambler",
+            "details": "Classic, 803cc",
+            "championships": []
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "en": {
+        "title": "Manufacturers",
+        "models-title": "Models",
+        "back-manufacturers": "Back to Manufacturers",
+        "back-models": "Back to Models",
+        "no-championships": "No championships"
+    },
+    "fr": {
+        "title": "Fabricants",
+        "models-title": "Modèles",
+        "back-manufacturers": "Retour aux fabricants",
+        "back-models": "Retour aux modèles",
+        "no-championships": "Pas de championnats"
+    }
+}
